@@ -1,0 +1,424 @@
+/* Apply Inter Font to the whole page */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+
+.custom-navbar {
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+  background-color: #ffffff;
+}
+
+/* Logo */
+.logo {
+  height: 30px;
+  margin-right: 8px;
+}
+
+/* Navbar Brand Text */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Navbar Links */
+.nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #334155;
+  margin-right: 20px;
+}
+
+/* Centered Search Bar */
+.search-form {
+  flex-grow: 1;
+  max-width: 622px;
+}
+
+.search-container {
+  position: relative;
+  width: 100%;
+}
+.search-bar::placeholder {
+  color: #334155;
+  opacity: 1; /* Ensures the color applies fully */
+}
+.search-bar {
+  width: 100%;
+  height: 40px;
+  padding: 8px 15px 8px 40px; /* Extra left padding for the icon */
+  border-radius: 8px;
+  border: 1px solid #334155;
+  font-size: 14px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px; /* Position the icon inside the input */
+  transform: translateY(-50%);
+  color: #334155;
+  font-size: 20px;
+  pointer-events: none; 
+}
+
+.cart-icon image {
+  width: 20px;
+  height: 20px;
+  color: #334155;
+  border: 2px solid #334155;
+  margin: 0 15px;
+}
+.nav-link.categories {
+  font-size: 14px;
+  font-weight: 500;
+  color: #334155;
+  /* Adjust this color to match your Figma */
+  text-decoration: none;
+  margin-right: 20px;
+}
+/* Login Button */
+
+.btn-login {
+  width: Hug (61px) px;
+  height: Hug (40px) px;
+  border-radius: 0 !important;
+  border: 1px solid #334155;
+  color: #334155;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* Signup Button */
+.btn-signup {
+  background-color: #334155;
+  border-radius: 0;
+  width: Hug (73px) px;
+  height: Hug (40px) px;
+
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  text-decoration: none;
+}
+
+
+ #first
+{
+
+  padding-right: 3%;
+  padding-left: 3%;
+}
+#first-button {
+  width: Hug (238px) px;
+  height: Fixed (48px) px;
+  padding: 10px 24px 10px 24px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+
+  background: #3b82f6;
+}
+.intro-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+}
+
+.intro-heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+
+#second
+{
+padding: 0px;
+}
+
+.stats-bar {
+  background-color: #f8fafc; /* Light background color */
+}
+
+.divider {
+  width: 4px; 
+  height: 50px; 
+  background-color: #e2e8f0; 
+  margin: 0 15px; 
+}
+*/
+
+/* Text alignment and styling */
+.stats-bar h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 41.6px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.stats-bar p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #0f172a;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #111827;
+}
+
+.see-all-link {
+  color: #3b82f6; /* Blue color */
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.see-all-link:hover {
+  text-decoration: underline;
+}
+
+.container-custom {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.card {
+  /* width: 286px ;
+  height:  224px; */
+  border-radius: 16px ;
+    border: 1px solid #E2E8F0;
+  opacity: 0px;
+  background-color: #ffffff; /* Light background color */
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.circle-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; 
+  height: 100px; 
+  background-color: #eef4ff; 
+  border-radius: 50%; 
+  margin: 0 auto 15px auto; 
+}
+
+
+.card-img-container {
+  border-radius: 15px; /
+}
+
+/* Rounded image */
+.card-img-top {
+  border-radius: 10px;
+  width: 100%; 
+  height: auto;
+}
+
+/* Card styling */
+.card {
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Title styling */
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+/* Muted text for author and ratings */
+.course-details {
+  margin: 0px;
+  color: #334155;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* Price styling */
+.course-price {
+  color: #0F172A;
+  font-size: 20px;
+  font-weight: 700;
+}
+.course-rate
+{
+  color: #334155;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Rating stars styling */
+.rating {
+  margin: 0px;
+  color: #EAB308;
+  font-size: 20px;
+}
+
+.card-subtitle
+{
+  color: #334155;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  
+}
+.rating-instructor {
+  border-top: 1px solid #E2E8F0; /* Added top border */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+.rating-text
+{
+
+color: #000;
+font-size: 14px;
+font-weight: 600;
+text-align: left;
+margin-left: 5px;
+
+}
+.student-count
+{
+  color: #334155;
+
+font-size: 14px;
+font-weight: 600;
+line-height: 14.52px;
+text-align: left;
+
+}
+
+/* Container with background color */
+.bg-custom-section {
+  background-color: #F8FAFC;
+}
+
+
+
+/* Title aligned to the left */
+.section-title {
+  font-weight: 700;
+  color: #333;
+  text-align: left;
+}
+
+/* Styling for testimonial cards */
+.card {
+  background-color: white;
+  border-radius: 12px;
+}
+
+.border-custom {
+  border: 1px solid #E2E8F0;
+}
+
+/* Styling for testimonial text */
+.testimonial-text {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  
+  
+}
+
+/* Quote icon */
+.quote-icon {
+  font-weight: bold;
+  color: #3B82F6; 
+}
+.divider-line {
+  width: 4px; 
+  height: 55px; 
+  background-color: #E2E8F0; 
+  margin: 0 10px; /
+}
+
+.tweets
+{
+border-radius: 16px;
+}
+
+.become-instructor-heading
+{
+ color: #000;
+font-size: 23px;
+font-weight: 600;
+line-height: 30px;
+
+}
+.become-instructor-content
+{
+
+ font-size: 19px;
+ font-weight: 400;
+ line-height: 25.6px;
+ text-align: left;
+ 
+
+}
+
+.black-btn
+{
+  background-color: #000!important;
+}
+.arrow
+{
+width: 16px;
+height: 12px;
+}
+
+.bg-dark {
+  background-color: #1E293B !important;
+}
+
+footer h5 {
+  font-weight: 600;
+}
+
+
+
+
+.footer-elements {
+  color: #CBD5E1;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: left;
+  
+
+}
+@media (max-width:1200px) {
+  .card {width: auto;}
+}
+
+
